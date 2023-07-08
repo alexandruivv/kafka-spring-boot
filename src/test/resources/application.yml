@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      group-id: foo
+    bootstrapServers: PLAINTEXT://localhost:9092
+
+kafka:
+  topic: test-example
